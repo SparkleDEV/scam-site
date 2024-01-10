@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>no scam here uwu</title>
+		<style>
+			body {
+				display: flex;
+				justify-content: center;
+				min-height: 100vh;
+				font-family: 'Comic Sans MS';
+				background-color: #262626;
+				color: #eee;
+			}
+
+			a {
+				color: #097afb;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<img src="./discord.png" alt="idscord loggo" />
+			<h1>pleese loge ein bei discord (no fake)</h1>
+			<label>benuzernarme</label>
+			<input type="text" id="name" />
+			<label>pa&szlig;worrd</label>
+			<input type="password" id="pwd" />
+			<button id="send">einlogen :D</button>
+			<a href="#" id="link">parswoad fergessen</a>
+		</div>
+		<script>
+			const namefield = document.getElementById('name')
+			const pwdfield = document.getElementById('pwd')
+
+			document.getElementById('link').onclick = (e) => {
+				e.preventDefault()
+				window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+			}
+
+			document.getElementById('send').onclick = (e) => {
+				e.preventDefault()
+				alert(`So uhm yea ich wollte hier eig was einbauen, damit der das wirklich abspeichtert falls du was lustiges eintippst, aber tbh hab ich kb hier wirklich grad was aufzusetzen für lol. damit ich den joke trotzdem sehe, kannst du mir das hier screenshotten:\n
+				\nUsername:\n${namefield.value}\n\nPassword:\n${pwdfield.value}`)
+			}
+		</script>
+	</body>
+</html>
